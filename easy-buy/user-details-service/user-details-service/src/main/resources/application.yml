@@ -1,0 +1,24 @@
+server:
+  port: 6000
+spring:
+  application:
+    name: user-details-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/easybuy_users
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        dialect:  org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+#logging:
+#  level:
+#    root: trace
+
