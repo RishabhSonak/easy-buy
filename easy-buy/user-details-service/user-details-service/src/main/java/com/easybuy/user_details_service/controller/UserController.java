@@ -1,6 +1,7 @@
 package com.easybuy.user_details_service.controller;
 
 
+import com.easybuy.user_details_service.dto.Authorities;
 import com.easybuy.user_details_service.dto.UserDTO;
 import com.easybuy.user_details_service.repository.UserRepository;
 import com.easybuy.user_details_service.service.UserService;
@@ -17,8 +18,18 @@ public class UserController {
     private UserRepository userRepository;
     @Autowired
     private PasswordEncoder passwordEncoder;
+
+    @GetMapping("/getauser")
+    public UserDTO userDTO(){
+        UserDTO userDTO=new UserDTO();
+        userDTO.setUsername("ramram");
+        userDTO.setPassword("ramram");
+        userDTO.setAuthorities(Authorities.USER.toString());
+        return userDTO;
+    }
+
     @PostMapping("sign_up")
-    public UserDTO saveUserDetail(@RequestBody UserDTO userDTO) throws Exception {
+    public UserDTO saveUserDetails(@RequestBody UserDTO userDTO) throws Exception {
         if(!userRepository.getUserByUsername(userDTO.getUsername()).isPresent()) {
             userDTO.setAccountNonLocked(true);
             userDTO.setAccountNonExpired(true);

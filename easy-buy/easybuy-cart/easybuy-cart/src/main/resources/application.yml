@@ -1,14 +1,14 @@
 server:
-  port: 6003
+  port: 6006
 spring:
   application:
-    name: user-details-service
-
+    name: easybuy-cart
   datasource:
-    url: jdbc:mysql://localhost:3306/easybuy_users
     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/easybuy_cart
     username: root
     password: root
+
   jpa:
     properties:
       hibernate:
@@ -18,7 +18,6 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
-#logging:
-#  level:
-#    root: trace
-
+  #logging:
+  #  level:
+  #    root: trace

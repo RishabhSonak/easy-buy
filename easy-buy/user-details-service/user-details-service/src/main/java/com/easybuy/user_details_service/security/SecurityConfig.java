@@ -38,7 +38,10 @@ public class SecurityConfig {
         httpSecurity
                 .authenticationProvider(daoAuthenticationProvider())
                 .authorizeHttpRequests(a -> a
-                        .requestMatchers("/easybuy/users/sign_up").permitAll())
+                        .requestMatchers("/easybuy/users/sign_up").permitAll()
+                        .requestMatchers("/easybuy/users/getauser").permitAll()
+)
+
                 .authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
                                 .anyRequest()

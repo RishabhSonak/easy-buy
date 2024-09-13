@@ -14,7 +14,6 @@ public class UserService {
     private DTOEntityMapper dtoEntityMapper;
     public UserDTO saveUserDetail(UserDTO userDTO) {
         UserDTO userDTO1=DTOEntityMapper.entityToDTO(userRepository.save(DTOEntityMapper.DTOtoEntity(userDTO)));
-        System.out.println(userDTO1);
         return userDTO1;
     }
     public UserDTO getUserByUsername(String username) {

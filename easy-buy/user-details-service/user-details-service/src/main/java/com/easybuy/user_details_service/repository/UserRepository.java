@@ -12,3 +12,5 @@ public interface UserRepository extends JpaRepository<User,Integer> {
     public Optional<User> getUserByUsername(@Param("username") String username);
 
 }
+
+// TODO: 28-06-2024  create 2 new repos, add:  
