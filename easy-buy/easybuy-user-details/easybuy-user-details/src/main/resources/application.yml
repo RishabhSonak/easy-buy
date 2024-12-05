@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: easybuy-user-details
+  config:
+    import: consul:localhost:8500
+
+  cloud:
+    loadbalancer:
+      enabled: true
+    discovery:
+      enabled: true
+    consul:
+      host: localhost
+      config:
+        enabled: true
+        prefix: config
+        format: YAML
+        name: easybuy-user-details
+        default-context: application
+        data-key: data
+        fail-fast: true
+
+      discovery:
+        instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
+        enabled: true
+
+#        instance-id: ${spring.application.name}-${random.value}
+
+
+#       profile-separator: "-"  # Separator for different profiles like dev, prod, etc.
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # Exposed all actuator endpoints for health checks

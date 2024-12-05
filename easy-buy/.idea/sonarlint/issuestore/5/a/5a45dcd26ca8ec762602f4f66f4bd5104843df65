@@ -1,0 +1,26 @@
+
+`	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(ÉÍ¹´þÿÿÿÿ
+`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(µÛèØúÿÿÿÿ
+w	java:S116"]Rename this field "UserDetailsService" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÈ§€ÿÿÿÿÿ
+J
+java:S1611"4Remove the parentheses around the "claims" parameter(…é§Ù
+U
+java:S1612"?Replace this lambda with method reference 'Claims::getSubject'.(…é§Ù
+P
+java:S1874 "5Remove this use of "setSigningKey"; it is deprecated.(çˆáŒøÿÿÿÿ
+Q
+java:S1874 "6Remove this use of "parseClaimsJws"; it is deprecated.(çˆáŒøÿÿÿÿ
+J
+java:S1874 "/Remove this use of "getBody"; it is deprecated.(çˆáŒøÿÿÿÿ
+G
+java:S1874.",Remove this use of "Date"; it is deprecated.(Ä˜…¼ûÿÿÿÿ
+G
+java:S18740",Remove this use of "Date"; it is deprecated.(Ì÷Ðîûÿÿÿÿ
+F
+java:S18741"0Remove this use of "signWith"; it is deprecated.(›ŒÓÜ
+P
+java:S18741":Remove this use of "SignatureAlgorithm"; it is deprecated.(›ŒÓÜ
+P
+java:S18741":Remove this use of "SignatureAlgorithm"; it is deprecated.(›ŒÓÜ
+@
+java:S19058"*Remove this unnecessary cast to "UserDTO".(¦ÉØÆ

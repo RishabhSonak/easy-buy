@@ -1,0 +1,16 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Ñ÷ƒ™ıÿÿÿÿ8ñÜ¨ä°2
+]	java:S125"<This block of commented-out lines of code should be removed.(§…Èøÿÿÿÿ8Ÿ™¬Ï±2
+t
+java:S1128"WRemove this unused import 'org.springframework.cloud.client.loadbalancer.LoadBalanced'.(Éâ¦‡8Ÿ™¬Ï±2
+n
+java:S1128"QRemove this unused import 'org.springframework.cloud.gateway.route.RouteLocator'.(å€üØ8¶¨öÍ±2
+|
+java:S1128"`Remove this unused import 'org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder'.(“›ó#8¶¨öÍ±2
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8 ™¬Ï±2
+j
+java:S1128	"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8 ™¬Ï±2
+y
+java:S1128
+"WRemove this unused import 'org.springframework.web.reactive.function.client.WebClient'.(¬à•ıÿÿÿÿ8 ™¬Ï±2

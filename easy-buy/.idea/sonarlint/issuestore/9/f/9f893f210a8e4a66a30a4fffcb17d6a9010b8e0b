@@ -1,0 +1,10 @@
+
+b	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(ÃÉ×©8å™º¥2
+b	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ˆ± ø8æ™º¥2
+|
+java:S14888"_Immediately return this expression instead of assigning it to the temporary variable "userDTO".(æó€œ8è™º¥2
+J
+java:S5411@"(Use a primitive boolean expression here.(¡ì˜úÿÿÿÿ8é™º¥2
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(‚•úşÿÿÿÿ8‘šº¥2
+I
+java:S1125@"'Remove the unnecessary boolean literal.(¡ì˜úÿÿÿÿ8˜šº¥2

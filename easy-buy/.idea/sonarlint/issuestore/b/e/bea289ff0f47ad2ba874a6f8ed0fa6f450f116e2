@@ -1,0 +1,25 @@
+
+`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ÉÍ¹´şÿÿÿÿ
+`	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(µÛèØúÿÿÿÿ
+J
+java:S1611"4Remove the parentheses around the "claims" parameter(…é§Ù
+U
+java:S1612"?Replace this lambda with method reference 'Claims::getSubject'.(…é§Ù
+P
+java:S1874"5Remove this use of "setSigningKey"; it is deprecated.(çˆáŒøÿÿÿÿ
+Q
+java:S1874"6Remove this use of "parseClaimsJws"; it is deprecated.(çˆáŒøÿÿÿÿ
+J
+java:S1874"/Remove this use of "getBody"; it is deprecated.(çˆáŒøÿÿÿÿ
+G
+java:S1874/",Remove this use of "Date"; it is deprecated.(Ä˜…¼ûÿÿÿÿ
+G
+java:S18741",Remove this use of "Date"; it is deprecated.(Ì÷Ğîûÿÿÿÿ
+F
+java:S18742"0Remove this use of "signWith"; it is deprecated.(›ŒÓÜ
+P
+java:S18742":Remove this use of "SignatureAlgorithm"; it is deprecated.(›ŒÓÜ
+P
+java:S18742":Remove this use of "SignatureAlgorithm"; it is deprecated.(›ŒÓÜ
+E
+java:S19059"*Remove this unnecessary cast to "UserDTO".(ŠÌè°ÿÿÿÿÿ
