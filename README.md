@@ -1,4 +1,4 @@
-#EASY-BUY
+##EASY-BUY
 This repository contains a microservices-based eCommerce application built using Spring Boot and Spring Cloud. It provides a basic eCommerce platform with separate services for product management, user details, cart, authentication, and an API gateway for routing.
 
 ## Table of Contents
